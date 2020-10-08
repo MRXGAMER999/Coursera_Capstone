@@ -1,0 +1,14 @@
+Introduction / Business Problem
+Car accidents are one of the most common issue found across the globe to be severe.Accidents might sometimes be due to oue negligence or due to natural reasons or anything. Sometimes, we might be too lazy or negligent to drive costing our lives as well as the others. Whereas sometimes, due to heavy rain or heavy gales etc. We might unknowingly droop into accident with the other car. Whatever the reason maybe, car accident not only lead to property damage but cause injuries and sometimes even leading to people's death. In our project we decide how these accidents occur due to weather conditions.So, the main problem or question arising in this depressing situation is
+"what is the severity of these car accidents ? " "What are their causes?" and "How to curb or slow down them ?"
+The target audience of the project is local Seattle government, police, rescue groups, and last but not least, car insurance institutes. The model and its results are going to provide some advice for the target audience to make insightful decisions for reducing the number of accidents and injuries for the city.
+Data Section
+We have several attributes in our dataset which will tell us about severity of these accidents. Attributes like WEATHER, ROADCOND, LIGHTCOND, JUNCTIONTYPE can tell us about the accidents which happen naturally and attributes like SEVERITYDESC and COLLISIONTYPE helps us decide how these accidents take place. Our predictor or target variable will be 'SEVERITYCODE' because it is used to measure the severity of an accident from 0 to 5 within dataset. Attributes used to weigh the severity of an accident are 'WEATHER' , 'ROADCOND' , 'LIGHTCOND'.
+•	0 : Little to no Probability (Clear Weather Conditions)
+•	1 : Very Low Probability - Chance of Property Damage
+•	2 : Low Probability - Chance of Injury
+•	3 : Mild Probability - Chance of Serious Injury
+•	4 : High Probability - Chance of Fatality
+So depending on these severity codes , we decide the extent of severity of accidents due to these weather conditions.
+
+
